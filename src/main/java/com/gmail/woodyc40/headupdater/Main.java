@@ -97,7 +97,7 @@ public class Main extends JavaPlugin {
         net.minecraft.server.v1_8_R3.Entity handle = ((CraftEntity) entity).getHandle();
 
         // Force update here
-        trackerEntry.m = trackerEntry.c;
+        trackerEntry.m = trackerEntry.c; // Force timer to update
         trackerEntry.xRot = -4; // Yaw delta initial
         trackerEntry.i = -4;    // Head rot initial
 
