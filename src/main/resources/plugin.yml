@@ -1,0 +1,7 @@
+main: com.gmail.woodyc40.headupdater.Main
+name: HeadUpdater
+version: 1.0
+
+commands:
+  headupdate:
+    description: Spawns a villager and smoothly turns it 360
